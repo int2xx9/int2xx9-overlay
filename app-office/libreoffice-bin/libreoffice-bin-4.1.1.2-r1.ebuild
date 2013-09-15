@@ -4,6 +4,8 @@
 
 EAPI=5
 
+inherit gnome2-utils
+
 DESCRIPTION="Libreoffice"
 HOMEPAGE="http://Libreoffice.org/"
 SRC_URI="http://download.documentfoundation.org/libreoffice/stable/4.1.1/deb/x86_64/LibreOffice_4.1.1_Linux_x86-64_deb.tar.gz http://download.documentfoundation.org/libreoffice/stable/4.1.1/deb/x86_64/LibreOffice_4.1.1_Linux_x86-64_deb_langpack_ja.tar.gz"
@@ -36,5 +38,9 @@ src_unpack() {
 
 src_install() {
 	cp -a ${S}/prefix/* ${D}
+}
+
+pkg_postinst() {
+	gnome2_icon_cache_update
 }
 
