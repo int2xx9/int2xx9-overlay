@@ -8,7 +8,7 @@ inherit gnome2-utils
 
 DESCRIPTION="Libreoffice"
 HOMEPAGE="http://Libreoffice.org/"
-SRC_URI="http://download.documentfoundation.org/libreoffice/stable/4.1.1/deb/x86_64/LibreOffice_4.1.1_Linux_x86-64_deb.tar.gz http://download.documentfoundation.org/libreoffice/stable/4.1.1/deb/x86_64/LibreOffice_4.1.1_Linux_x86-64_deb_langpack_ja.tar.gz"
+SRC_URI="http://download.documentfoundation.org/libreoffice/stable/4.2.1/deb/x86_64/LibreOffice_4.2.1_Linux_x86-64_deb.tar.gz http://download.documentfoundation.org/libreoffice/stable/4.2.1/deb/x86_64/LibreOffice_4.2.1_Linux_x86-64_deb_langpack_ja.tar.gz"
 
 LICENSE=""
 SLOT="0"
